@@ -7,6 +7,7 @@ package com.example.designpattern.inversionImprove;
  */
 public class DependecyInversion {
     public static void main(String[] args) {
+        // 客户端不用改变
         Person person = new Person();
         person.receive(new Email());
     }
